@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/janus",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "type": "service-package",
+  "authors": [
+    {
+      "name": "artak",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Service\\Janus\\JanusServiceProvider"
+      ]
+    }
+  }
+}
